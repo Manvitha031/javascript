@@ -1,0 +1,43 @@
+function corparateinfo(){
+ companyname   =  "jvt"
+ designation    =  "programmer"
+ salary         =  450000
+ location       =  "banglore"
+ 
+ checkcompanyname(companyname)
+ checkdesignation(designation)
+ checksalary(salary)
+}
+function checkdesignation(designation)
+{
+    if(designation=="programmer"){
+    console.log("designation is already given")
+    return
+    }
+    console.log(designation)
+}
+function checkcompanyname(companyname)
+{
+    if(companyname=="jvt"){
+        console.log("company name already given")
+        return
+    }
+    console.log(companyname)
+}
+function checksalary(salary)
+{
+ if(salary < 350000)
+{
+ console.log("salary is already given")
+ return
+}
+else if(salary >= 350000)
+{
+ console.log("salary is high given")
+ return
+}
+console.log(checksalary)
+}
+corparateinfo()
+
+
