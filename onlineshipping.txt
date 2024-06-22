@@ -1,0 +1,33 @@
+function onlineshipping(){
+    name      = "manvitha"
+    pincode   = "577145"
+    address   ="bukkambudhi"
+    landmark  = "templestreet"
+    city      = "tarikere"
+    state     = "karnataka"
+    country   = "india"
+    phone     = "8217722652"
+
+ checkaddress(checkaddress)
+ checklandmark(checklandmark)
+ cityname(cityname)
+}
+function checklandmark(landmark){
+  if(landmark=="templestreet"){
+      console.log("landmark is already mentioned")
+  }
+  console.log("landmark")
+  }
+  function cityname(city){
+   if(city=="tarikere"){
+       console.log("cityname is already mentioned")
+   } 
+   console.log("cityname")
+  }
+  function checkaddress(address){
+    if(address=="bukkambudhi"){
+        console.log("address is already mentioned")
+    }
+    console.log("address")
+}
+onlineshipping()
